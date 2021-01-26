@@ -1,0 +1,155 @@
+:root {
+  background-color:aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+}
+
+body {
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--dark-cyan);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+
+#root{
+display: flex;
+max-width: 100%;
+flex-wrap: wrap;
+align-items: center;
+}
+
+.hidden{
+  display: none;
+}
+
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+
+.card {
+  background-color: white;
+  width: 230px;
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  text-align: center;
+}
+
+.card-header {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.383);
+  text-align:center
+
+  
+}
+
+.card-body-img {
+  
+  width: 100px;
+  height: 100px;
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: white;
+  max-height: fit-content;
+  max-width:fit-content ;
+}
+
+
+
+.card-body-title {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.card-body-title span {
+  color: var(--dark-gray);
+  font-weight: 400;
+}
+
+.card-body-text {
+  color: var(--dark-gray);
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-footer-social {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-footer-social p {
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+
+
+h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#btn{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*# sourceMappingURL=estilos.css.map */
